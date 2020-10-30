@@ -11,14 +11,15 @@ $(document).ready(function() {
     }
     
     let stringArray = displayArray.toString();
-    let finalString1 = stringArray.replace(/.3+../g, " Won't you be my cyber neighbor?");
+    let finalString1 = stringArray.replace(/.3+../g, " Won't you be my cyber neighbor?, ");
+    let finalString2 = finalString1.replace(/.2..?/g, " Boop!, ");
 
     // let finalString2 = finalString1.replace(/[2]/g, " Boop!");
     // let finalString3 = finalString2.replace(/[1]/g, " Beep!")
     // let finalString4 = finalString3.replace(/Boop\!\ Beep\!\ /g, " Boop!")
     
     
-    $("#result").text(finalString1);
+    $("#result").text(finalString2);
     
     e.preventDefault();
   });
