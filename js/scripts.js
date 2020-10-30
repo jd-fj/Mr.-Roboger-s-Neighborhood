@@ -6,25 +6,30 @@ $(document).ready(function() {
     let displayArray = []
     
     for (let i = 0; i <= countToInt; i ++) {
-      if (i === 1) {
-        displayArray.push("Beep! ")
-      } else if (i === 2) {
-        displayArray.push("Boop! ")
-      } else if (i ===3) {
-        displayArray.push("Won't you be my cyber neighbor? ")
-      } else {
-      displayArray.push(i + ", ");
-      }
-
+      displayArray.push(i + " ");
     }
 
-    $("#result").append(displayArray);
+    let stringArray = displayArray.toString();
+    const finalString = stringArray.replace(/[1]/g, "Beep!");
+
+    $("#result").append(finalString);
 
   });
 });
 
-// 4 Test: "it should return a "Won't you be my cyber Neighbor?" when 3 is inputted"
-// Expect(mrRobo(3)).toEqual("Won't you be my cyber Neighbor?");
+// if (i === 1) {
+//   displayArray.push("Beep! ")
+// } else if (i === 2) {
+//   displayArray.push("Boop! ")
+// } else if (i === 3) {
+//   displayArray.push("Won't you be my cyber neighbor? ")
+// } else {
+
+// roboArray = displayArray.replace(/[]/g,)
+
+// for (let i = 0; i <= countToInt; i ++) {
+//   displayArray.push(i + ", ");
+// }
 
 // 5 Test: "it should return a "Won't you be my cyber Neighbor?" when 13 is inputted"
 // Expect(mrRobo(13)).toEqual("Won't you be my cyber Neighbor?");
