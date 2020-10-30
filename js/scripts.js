@@ -16,3 +16,22 @@ $(document).ready(function() {
     $("#result").text(finalString3);    
   });
 });
+
+
+// psudo coding a better way to do thi? 
+// let countToInt = $("input#inputNumber").val()
+// let displayArray = []
+// const beep = "Beep!"
+// const boop = "Boop!"
+
+//     for (let i = 0; i <= countToInt; i ++) {
+//       if (i.includes("3")) {
+//         displayArray.push("Won't you be my neighbor?, ")
+//       } else if (i.includes("2")) {
+//         displayArray.push("Boop!, ")
+//       } else if (i.includes("1")) {
+//         displayArray.push("Beep!, ")
+//       } else {
+//       displayArray.push(" " + i);
+//       }
+//     }
