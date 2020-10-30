@@ -4,23 +4,22 @@ $(document).ready(function() {
 
     let countToInt = $("input#inputNumber").val()
     let displayArray = []
-    let roboArray = []
     
     for (let i = 0; i <= countToInt; i ++) {
       if (i === 1) {
-        displayArray.push("beep!")
+        displayArray.push("Beep! ")
+      } else if (i === 2) {
+        displayArray.push("Boop! ")
       } else {
       displayArray.push(i + " ");
-    }
+      }
+
     }
 
     $("#result").append(displayArray);
 
   });
 });
-
-// Test: "it should return a "Beep!" when 1 is inputted"
-// Expect(mrRobo(1)).toEqual("Beep!");
 
 // Test: "it should return a "Boop!" when 2 is inputted"
 // Expect(mrRobo(2)).toEqual("Boop!");
