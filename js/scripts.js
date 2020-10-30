@@ -10,8 +10,10 @@ $(document).ready(function() {
         displayArray.push("Beep! ")
       } else if (i === 2) {
         displayArray.push("Boop! ")
+      } else if (i ===3) {
+        displayArray.push("Won't you be my cyber neighbor? ")
       } else {
-      displayArray.push(i + " ");
+      displayArray.push(i + ", ");
       }
 
     }
@@ -21,17 +23,14 @@ $(document).ready(function() {
   });
 });
 
-// Test: "it should return a "Boop!" when 2 is inputted"
-// Expect(mrRobo(2)).toEqual("Boop!");
-
-// Test: "it should return a "Won't you be my cyber Neighbor?" when 3 is inputted"
+// 4 Test: "it should return a "Won't you be my cyber Neighbor?" when 3 is inputted"
 // Expect(mrRobo(3)).toEqual("Won't you be my cyber Neighbor?");
 
-// Test: "it should return a "Won't you be my cyber Neighbor?" when 13 is inputted"
+// 5 Test: "it should return a "Won't you be my cyber Neighbor?" when 13 is inputted"
 // Expect(mrRobo(13)).toEqual("Won't you be my cyber Neighbor?");
 
-// Test: "It should return a "Boop!" when 21 is inputted
+// 6 Test: "It should return a "Boop!" when 21 is inputted
 // Expect(mrRobo(21)).toEqual("Boop!");
 
-// Test: "It should return a "Boop!" when 32 is inputted
+// 7 Test: "It should return a "Boop!" when 32 is inputted
 // Expect(mrRobo(32)).toEqual("Won't you be my cyber Neighbor?");
