@@ -2,7 +2,8 @@ $(document).ready(function() {
   $("#numberForm").submit(function (e) {
     e.preventDefault();
 
-    let countToInt = [$("input#inputNumber").val()]
+    let countToInt = $("input#inputNumber").val()
+    let displayArray = []
     console.log(countToInt)
 
   });
