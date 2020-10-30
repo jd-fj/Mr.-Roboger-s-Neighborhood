@@ -1,8 +1,11 @@
 $(document).ready(function() {
-  $("#numberForm").submit(function(e) {
+  $("#numberForm").submit(function (e) {
     e.preventDefault();
 
-  });)
+    let countToInt = [$("input#inputNumber").val()]
+    console.log(countToInt)
+
+  });
 });
 
 
