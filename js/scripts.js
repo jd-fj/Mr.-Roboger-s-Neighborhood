@@ -8,6 +8,7 @@ $(document).ready(function() {
     for (let i = 0; i <= countToInt; i ++) {
       displayArray.push(i + " ");
     }
+// test for input 0
 
     $("#result").append(displayArray);
   });
