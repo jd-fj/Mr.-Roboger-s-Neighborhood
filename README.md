@@ -2,7 +2,8 @@
 ###### Friday Independent Project [10.30.20]
 ### by Taylor Delph
 
-## Here's my live page! {https://taylulz.github.io/Mr.-Roboger-s-Neighborhood/}
+## Here's my live page! 
+{https://taylulz.github.io/Mr.-Roboger-s-Neighborhood/}
 
 ## Setup and installation instructions
 
