@@ -4,8 +4,12 @@ $(document).ready(function() {
 
     let countToInt = $("input#inputNumber").val()
     let displayArray = []
-    console.log(countToInt)
 
+    for (let i = 0; i <= countToInt; i ++) {
+      displayArray.push(i + " ");
+    }
+
+    $("#result").append(displayArray);
   });
 });
 
