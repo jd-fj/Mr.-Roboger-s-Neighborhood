@@ -1,43 +1,29 @@
 $(document).ready(function() {
   $("#numberForm").submit(function (e) {
-    e.preventDefault();
-
-  
-
+    
+    
+    
     let countToInt = $("input#inputNumber").val()
     let displayArray = []
     
     for (let i = 0; i <= countToInt; i ++) {
       displayArray.push(" " + i);
     }
-
-    let stringArray = displayArray.toString();
-    let finalString1 = stringArray.replace(/[.1]/g, " Beep!");
-    let finalString2 = finalString1.replace(/[2.]/g, " Boop!");
-    let finalString3 = finalString2.replace(/[.3]/g, " Won't you be my cyber neighbor?")
-
     
-    $("#result").text(finalString3);
+    let stringArray = displayArray.toString();
+    let finalString1 = stringArray.replace(/3+./g, " Won't you be my cyber neighbor?");
 
+    // let finalString2 = finalString1.replace(/[2]/g, " Boop!");
+    // let finalString3 = finalString2.replace(/[1]/g, " Beep!")
+    // let finalString4 = finalString3.replace(/Boop\!\ Beep\!\ /g, " Boop!")
+    
+    
+    $("#result").text(finalString1);
+    
+    e.preventDefault();
   });
 });
 
-// if (i === 1) {
-//   displayArray.push("Beep! ")
-// } else if (i === 2) {
-//   displayArray.push("Boop! ")
-// } else if (i === 3) {
-//   displayArray.push("Won't you be my cyber neighbor? ")
-// } else {
-
-// roboArray = displayArray.replace(/[]/g,)
-
-// for (let i = 0; i <= countToInt; i ++) {
-//   displayArray.push(i + ", ");
-// }
-
-// 5 Test: "it should return a "Won't you be my cyber Neighbor?" when 13 is inputted"
-// Expect(mrRobo(13)).toEqual("Won't you be my cyber Neighbor?");
 
 // 6 Test: "It should return a "Boop!" when 21 is inputted
 // Expect(mrRobo(21)).toEqual("Boop!");
