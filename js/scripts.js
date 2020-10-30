@@ -4,21 +4,20 @@ $(document).ready(function() {
 
     let countToInt = $("input#inputNumber").val()
     let displayArray = []
-
+    let roboArray = []
+    
     for (let i = 0; i <= countToInt; i ++) {
+      if (i === 1) {
+        displayArray.push("beep!")
+      } else {
       displayArray.push(i + " ");
     }
-// test for input 0
+    }
 
     $("#result").append(displayArray);
+
   });
 });
-
-
-// Describe: mrRobo()
-
-// Test: "it should return a 0 when 0 is inputted"
-// Expect(mrRobo(0)).toEqual(0);
 
 // Test: "it should return a "Beep!" when 1 is inputted"
 // Expect(mrRobo(1)).toEqual("Beep!");
