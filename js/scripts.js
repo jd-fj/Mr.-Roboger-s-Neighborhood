@@ -10,9 +10,11 @@ $(document).ready(function() {
     }
 
     let stringArray = displayArray.toString();
-    const finalString = stringArray.replace(/[1]/g, "Beep!");
+    let finalString1 = stringArray.replace(/[1]/g, "Beep!");
+    let finalString2 = finalString1.replace(/[2]/g, "Boop!");
 
-    $("#result").append(finalString);
+    
+    $("#result").append(finalString2);
 
   });
 });
