@@ -1,25 +1,41 @@
-# Project title
-###### Something about what it is [date]
+# Mr Roboger's Neighborhood!
+###### Friday Independent Project [10.30.20]
 ### by Taylor Delph
 
 ## Here's my live page! {gh-pages link}
 
 ## Setup and installation instructions
-View online 
-1. Visit [my live gh-pages here]
 
 Software Reqirements
-1. 
-2. 
+1. A web browser
+2. Bash/GitBash
+3. Code editor like VS Code to view or edit the code
 
 Open by downloading
-1. 
-2. 
+
+1. [Navigate to my GitHub repo](https://github.com/taylulz/Mr.-Roboger-s-Neighborhood.git)
+2. Click the green **Code** button.  
+
+![Image of Code button](/img/GHbutton.png)
+
+3. Click 'Download ZIP' option. 
+
+![Image of Download ZIP](/img/zip.png)
+
+4. Unzip file when it finishes downloading.
+5. Drag unzipped folder into VS Code or other code editor to view contents.
+6. If you do not have a code editor, you can double click the index.html instead to open the page in your internet browser.
 
 Open via Bash/GitBash
-1. you can put bits of code inside the back ticks `git clone {repo URL}`
+
+1. To clone this repository, go to your terminal and enter: `$ git clone https://github.com/taylulz/Mr.-Roboger-s-Neighborhood.git`
+2. Navigate to downloaded repository
+3. Drag repository folder into VS Code or other code editor to view contents
+4. If you do not have a code editor, you can double click the index.html instead to open the page in your internet browser.
 
 # Known Bugs
+
+Does not run perfectly for numbers in the thousands and beyond
 
 # Specifications
 Describe: mrRobo()
