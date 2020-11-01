@@ -19,7 +19,10 @@ console.log(humanArray)
 
 // Now what I want to do is loop through that array, and replace all the threes with "Wybmn?"
 let mrRobo = humanArray.forEach(function(humanNumber) {
-  roboArray.push(humanNumber);
+  if (humanNumber.includes(3)) {
+    roboArray.push(neighbor)
+  }
+  else roboArray.push(humanNumber);
   });
 
   $("#result").text(roboArray);  
