@@ -3,20 +3,26 @@ $(document).ready(function() {
     e.preventDefault();
 
 let countToInt = $("input#inputNumber").val()
-const beep = 
-const boop = 
-const neighbor = 
+const beep = "Beep!, "
+const boop = "Boop!, "
+const neighbor = "Wybmn?"
 let humanArray = []
+let roboArray = []
 
-// okay, so here I have a loop, that makes an array of stringy numbers, counting up to the number the user inputs. 
+
+
+// okay, so here I have a loop, that makes an array of numbers, counting up to the number the user inputs. 
 for (let i = 0; i <= countToInt; i ++) {
   humanArray.push(" " + i);
 }
+console.log(humanArray)
 
-// Now what I want to do it loop through that array, and replace all the threes with "Wybmn?"
+// Now what I want to do is loop through that array, and replace all the threes with "Wybmn?"
+let mrRobo = humanArray.forEach(function(humanNumber) {
+  roboArray.push(humanNumber);
+  });
 
-
-    $("#result").text(displayArray);    
+  $("#result").text(roboArray);  
   });
 });
 
@@ -50,3 +56,16 @@ for (let i = 0; i <= countToInt; i ++) {
 //   }
 //   displayArray.push(" " + i);
 // }
+
+// let mrRobo = humanArray.forEach(function(humanNumber) {
+//   if (humanNumber.includes(3)) {
+//     mrRobo.push("WYBMN?");
+//   }
+//   else {
+//     mrRobo.push(humanNumber);
+//   }
+//   });
+
+//   $("#result").text(mrRobo);  
+//   });
+// });
