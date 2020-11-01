@@ -19,14 +19,14 @@ console.log(humanArray)
 let mrRobo = humanArray.forEach(function(humanNumber) {
   if (humanNumber.includes(3)) {
     roboArray.push(neighbor);
-  }
-  else if (humanNumber.includes(2)) {
+  } else if (humanNumber.includes(2)) {
     roboArray.push(boop);
-  }
-  else if (humanNumber.includes(1)) {
+  } else if (humanNumber.includes(1)) {
     roboArray.push(beep);
+  } else { 
+    roboArray.push(humanNumber);
   }
-  else roboArray.push(humanNumber);
+  
   });
 
   $("#result").text(roboArray);  
