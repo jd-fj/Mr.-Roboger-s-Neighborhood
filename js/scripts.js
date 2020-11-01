@@ -22,6 +22,9 @@ let mrRobo = humanArray.forEach(function(humanNumber) {
   if (humanNumber.includes(3)) {
     roboArray.push(neighbor)
   }
+  else if (humanNumber.includes(2)) {
+    roboArray.push(boop)
+  }
   else roboArray.push(humanNumber);
   });
 
