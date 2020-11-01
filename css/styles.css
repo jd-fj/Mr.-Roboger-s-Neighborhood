@@ -1,4 +1,40 @@
-button {
-  color: red;
-  outline: solid black;
+.header {
+  color: rgb(0, 0, 225);
+  background-color: rgb(255, 38, 0);
+  padding: 30px;
+  text-align: center;
+  font-family: Impact, sans-serif;
+  letter-spacing: 5px;
+  margin-top: 80px;
+  opacity: .9;
+}
+
+.userSection {
+  padding: 100px;
+
+  background-color: rgb(255, 234, 112);
+}
+
+div label {
+  color: rgb(255, 38, 0);
+  font-family: impact, sans-serif;
+  font-size: 50px;
+}
+
+form .btn {
+  border: solid black;
+  border-radius: 5%;
+  font-family: impact;
+  font-size: xx-large;
+  padding: 100px;
+  margin: 50px;
+  margin-left: 0;
+  background-color: rgb(255, 38, 0);
+  opacity: .9;
+}
+
+#result {
+  font-family: impact;
+  font-size: xx-large;
+  word-spacing: 10px;
 }
