@@ -37,10 +37,6 @@ Open via Bash/GitBash
 3. Drag repository folder into VS Code or other code editor to view contents
 4. If you do not have a code editor, you can double click the index.html instead to open the page in your internet browser.
 
-# Known Bugs
-
-Does not run perfectly for numbers in the thousands and beyond
-
 # Specifications
 Describe: mrRobo()
 
