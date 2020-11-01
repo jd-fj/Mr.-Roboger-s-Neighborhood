@@ -3,13 +3,11 @@ $(document).ready(function() {
     e.preventDefault();
 
 let countToInt = $("input#inputNumber").val()
-const beep = "Beep!, "
-const boop = "Boop!, "
-const neighbor = "Wybmn?"
+const beep = " Beep!"
+const boop = " Boop!"
+const neighbor = " Won't you be my neighbor?"
 let humanArray = []
 let roboArray = []
-
-
 
 // okay, so here I have a loop, that makes an array of numbers, counting up to the number the user inputs. 
 for (let i = 0; i <= countToInt; i ++) {
@@ -20,10 +18,13 @@ console.log(humanArray)
 // Now what I want to do is loop through that array, and replace all the threes with "Wybmn?"
 let mrRobo = humanArray.forEach(function(humanNumber) {
   if (humanNumber.includes(3)) {
-    roboArray.push(neighbor)
+    roboArray.push(neighbor);
   }
   else if (humanNumber.includes(2)) {
-    roboArray.push(boop)
+    roboArray.push(boop);
+  }
+  else if (humanNumber.includes(1)) {
+    roboArray.push(beep);
   }
   else roboArray.push(humanNumber);
   });
