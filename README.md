@@ -3,7 +3,7 @@
 ### by Taylor Delph
 
 ## Here's my live page! 
-{https://taylulz.github.io/Mr.-Roboger-s-Neighborhood/}
+[Click here](https://taylulz.github.io/Mr.-Roboger-s-Neighborhood/)
 
 ## Setup and installation instructions
 
