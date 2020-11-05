@@ -1,13 +1,9 @@
 # Mr Roboger's Neighborhood!
 ###### Friday Independent Project [10.30.20]
 ### by Taylor Delph
-#
-### **Description:**
 
-This handy counting app will translate human numbers to Mr. Roboger's numbers.
-
-## Link to website 
-[Click here to directly visit my site](https://taylulz.github.io/Mr.-Roboger-s-Neighborhood/)
+## Here's my live page! 
+[Click here](https://taylulz.github.io/Mr.-Roboger-s-Neighborhood/)
 
 ## Setup and installation instructions
 
@@ -41,7 +37,7 @@ Open via Bash/GitBash
 3. Drag repository folder into VS Code or other code editor to view contents
 4. If you do not have a code editor, you can double click the index.html instead to open the page in your internet browser.
 
-## Specifications
+# Specifications
 Describe: mrRobo()
 
     Test: "it should return a 0 when 0 is inputted"
@@ -65,21 +61,3 @@ Describe: mrRobo()
     Test: "It should return a "Boop!" when 32 is inputted
     Expect(mrRobo(32)).toEqual("Won't you be my cyber Neighbor?");
 
-## Technologies Used
-
-• VS Code
-
-• GitBash
-
-• html
-
-• css
-
-• jQuery
-
-• JavaScript
-
-## Legal
-Copyright (c) 2020 Taylor Delph
-
-This website is licensed under the MIT license.
