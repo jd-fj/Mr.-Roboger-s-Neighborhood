@@ -1,10 +1,10 @@
-function mrRobo(param) {
+function mrRobo(userNumber) {
   const beep = " Beep!"
   const boop = " Boop!"
   const neighbor = " Won't you be my neighbor?"
   let humanArray = []
   let roboArray = []
-  for (let i = 0; i <= param; i ++) {
+  for (let i = 0; i <= userNumber; i ++) {
     humanArray.push(" " + i);
   }
   
@@ -26,7 +26,7 @@ $(document).ready(function() {
   $("#numberForm").submit(function (e) {
     e.preventDefault();
     let countToInt = $("input#inputNumber").val();
-    let myArray = mrRobo(countToInt);
-    $("#result").text(myArray);
+    let finalArray = mrRobo(countToInt);
+    $("#result").text(finalArray);
   });
 });
