@@ -1,5 +1,5 @@
 .header {
-  color: rgb(0, 0, 225);
+  color: rgba(0, 0, 225, 0.721);
   background-color: rgb(255, 38, 0);
   padding: 30px;
   text-align: center;
@@ -11,7 +11,6 @@
 
 .userSection {
   padding: 100px;
-
   background-color: rgb(255, 234, 112);
 }
 
@@ -22,7 +21,7 @@ div label {
 }
 
 form .btn {
-  border: solid black;
+  border: solid #323330;
   border-radius: 5%;
   font-family: impact;
   font-size: xx-large;
@@ -34,6 +33,7 @@ form .btn {
 }
 
 #result {
+  color: #323330;
   font-family: impact;
   font-size: xx-large;
   word-spacing: 10px;

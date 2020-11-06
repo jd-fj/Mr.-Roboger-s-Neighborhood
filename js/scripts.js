@@ -7,6 +7,7 @@ function mrRobo(param) {
   for (let i = 0; i <= param; i ++) {
     humanArray.push(" " + i);
   }
+  
   humanArray.forEach(function(humanNumber) {
     if (humanNumber.includes(3)) {
       roboArray.push(neighbor);
@@ -19,7 +20,7 @@ function mrRobo(param) {
     }
   });
   return roboArray;
-}
+  }
     
 $(document).ready(function() {
   $("#numberForm").submit(function (e) {
