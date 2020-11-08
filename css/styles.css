@@ -1,5 +1,5 @@
 .header {
-  color: rgba(0, 0, 225, 0.721);
+  color: rgba(56, 0, 225, 0.762);
   background-color: rgb(255, 38, 0);
   padding: 30px;
   text-align: center;
@@ -7,6 +7,7 @@
   letter-spacing: 5px;
   margin-top: 80px;
   opacity: .9;
+  border-radius: 6em / 6em;
 }
 
 .userSection {
@@ -21,15 +22,24 @@ div label {
 }
 
 form .btn {
-  border: solid #323330;
-  border-radius: 5%;
   font-family: impact;
   font-size: xx-large;
-  padding: 100px;
-  margin: 50px;
-  margin-left: 0;
   background-color: rgb(255, 38, 0);
+  border: solid #323330;
+  border-radius: 50%;
+  border-width: 20px;
+  padding: 100px;
   opacity: .9;
+  margin: auto;
+  display: block;
+  margin-top: 100px
+}
+
+form .btn:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 0, 0);
+  opacity: 1;
+  padding: 101px;
 }
 
 #result {
@@ -37,4 +47,12 @@ form .btn {
   font-family: impact;
   font-size: xx-large;
   word-spacing: 10px;
+  margin-top: 50px;
+}
+
+.userSection {
+  border: dashed rgba(255, 168, 255, 0.741);
+  border-width: 13px;
+  border-radius: 6em / 6em;
+
 }

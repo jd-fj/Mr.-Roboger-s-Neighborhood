@@ -7,7 +7,8 @@ function mrRobo(userNumber) {
   for (let i = 0; i <= userNumber; i ++) {
     humanArray.push(" " + i);
   }
-  
+  console.log(humanArray)
+
   humanArray.forEach(function(humanNumber) {
     if (humanNumber.includes(3)) {
       roboArray.push(neighbor);
