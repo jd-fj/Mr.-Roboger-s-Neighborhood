@@ -1,9 +1,9 @@
 function mrRobo(userNumber) {
-  const beep = " Beep!"
-  const boop = " Boop!"
-  const neighbor = " Won't you be my neighbor?"
-  let humanArray = []
-  let roboArray = []
+  const beep = " Beep!";
+  const boop = " Boop!";
+  const neighbor = " Won't you be my neighbor?";
+  let humanArray = [];
+  let roboArray = [];
   for (let i = 0; i <= userNumber; i ++) {
     humanArray.push(" " + i);
   }
@@ -20,7 +20,7 @@ function mrRobo(userNumber) {
     }
   });
   return roboArray;
-  }
+}
 
 $(document).ready(function() {
   $("#numberForm").submit(function (e) {
